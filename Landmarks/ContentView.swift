@@ -11,9 +11,13 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
+                .foregroundColor(Color.green)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, Im staring to learn swift UI!")
+            Text("Turtle Rock")
+                .foregroundColor(Color.green)
+                .padding()
+                
         }
         .padding()
     }
