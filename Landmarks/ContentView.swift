@@ -15,9 +15,8 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Turtle Rock")
-                .foregroundColor(Color.green)
+                .font(.title)
                 .padding()
-                
         }
         .padding()
     }
